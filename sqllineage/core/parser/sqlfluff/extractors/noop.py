@@ -25,6 +25,8 @@ class NoopExtractor(BaseExtractor):
         "create_function_statement",
         "drop_function_statement",
         "set_statement",
+        "create_index_statement",
+        "reset_statement",
     ]
 
     def extract(
